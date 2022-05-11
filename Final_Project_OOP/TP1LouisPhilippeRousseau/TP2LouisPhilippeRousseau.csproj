@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="gen">
+      <HintPath>..\..\..\source\repos\gen\gen\bin\Debug\net5.0\gen.dll</HintPath>
+    </Reference>
+    <Reference Include="LibraryGenerateurs">
+      <HintPath>..\..\LibraryTP01\LibraryTP01\bin\Debug\net5.0\LibraryGenerateurs.dll</HintPath>
+    </Reference>
+    <Reference Include="ObstacleurService">
+      <HintPath>bin\Debug\net5.0\ObstacleurService.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
